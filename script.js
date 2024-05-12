@@ -71,7 +71,7 @@ const draw = () => {
 const drawMissile = () => {
     ctx.beginPath();
     ctx.arc(missileX, missileY, missileRadius, 0, Math.PI * 2);
-    ctx.fillStyle = "blue";
+    ctx.fillStyle = "red";
     ctx.fill();
     ctx.closePath();
 };
